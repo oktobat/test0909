@@ -2,8 +2,8 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
-* {}
-body { font:12px/1.6 arial; color:#555;  cursor:url(../img/logo.png),auto }
+* {  cursor:url(../img/cur1.png),auto } /* 커서이미지 크기(100px 미만)가 작아야 적용됨 */
+body { font:12px/1.6 arial; color:#555;  }
 
 h1 { position:fixed; top:50px; left:50px; z-index:99}
 h1 img { width:200px; }
